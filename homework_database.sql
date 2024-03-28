@@ -2,7 +2,7 @@ CREATE DATABASE homework_database;
 use homework_database;
 
 -- 1.	Создайте функцию, которая принимает кол-во сек и форматирует их в кол-во дней, часов, минут и секунд.
--- Пример: 123456 ->'1 days 10 hours 17 minutes 36 seconds '
+-- Пример: 123456 ->'1 days 10 hours 17 minutes 36 seconds'
 
 DELIMITER //
 CREATE PROCEDURE second_counter(num INT)
